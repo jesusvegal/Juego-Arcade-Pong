@@ -1,3 +1,65 @@
+# 🏓 Arcade Pong Game - Python 🏓
+
+Welcome to the classic **Pong** game developed in Python using the `turtle` library! This is a simple and fun version where two players compete by controlling paddles to prevent the ball from passing into their side. Are you ready for the challenge?
+
+---
+
+## 🎮 Game Features
+
+- **Two-player control**: Each player can move their paddle up and down to block the ball.
+- **Real-time scoreboard**: The scores of both players are displayed at the top of the screen.
+- **Realistic collisions**: The ball bounces off the top and bottom walls, as well as the players’ paddles. If the ball crosses a side, the opponent scores a point.
+- **Continuous movement**: The ball moves constantly and slightly speeds up with each paddle bounce.
+
+---
+
+## 📦 Technologies Used
+
+This game was built using **Python** and the **turtle** library, which allows the creation of simple graphics and object manipulation within a graphical window.
+
+- **Python 3.x**: Programming language.
+- **Turtle Graphics**: Python’s graphical library for creating the game window, paddles, ball, and scoreboard.
+
+---
+
+## ⚙️ Requirements
+
+To run the game, you need to have:
+
+- Python 3.x (any recent version).
+- The **turtle** library, which is usually pre-installed with Python.
+
+---
+
+## 📜 How to Play
+
+1. **Start the Game**:  
+   Run the `pong.py` file to open the game window displaying the scoreboard and paddles.
+
+2. **Paddle Controls**:
+   - **Player A** (left):  
+     - Move the paddle up using the **"W"** key.  
+     - Move the paddle down using the **"S"** key.  
+   - **Player B** (right):  
+     - Move the paddle up using the **↑ arrow** key.  
+     - Move the paddle down using the **↓ arrow** key.
+
+3. **Objective**:  
+   Prevent the ball from passing into your side. Each time the ball crosses into the opponent’s field, they score a point.
+
+4. **Scoreboard**:  
+   The current score for both players is displayed at the top of the screen.
+
+5. **Ball Bounces**:  
+   - The ball bounces off the top and bottom walls.  
+   - If the ball hits the paddles, it changes direction and slightly increases its speed.
+
+6. **Scoring**:  
+   If the ball crosses the left edge (point for Player B) or the right edge (point for Player A), the ball resets to the center.
+
+---
+
+
 # 🏓 **Juego Arcade Pong - Python** 🏓
 
 ¡Bienvenido al clásico juego de **Pong** desarrollado en Python usando la librería `turtle`! Este juego es una versión sencilla y divertida en la que dos jugadores se enfrentan controlando paletas para evitar que la pelota pase al campo contrario. ¿Estás listo para el desafío?
@@ -39,5 +101,7 @@ Para ejecutar el juego, necesitas tener instalado:
    - La pelota rebota en las paredes superior e inferior.
    - Si la pelota colisiona con las paletas, cambia de dirección y aumenta ligeramente su velocidad.
 6. **Puntuación**: Si la pelota cruza el borde izquierdo (punto para el jugador B) o el borde derecho (punto para el jugador A), el juego reinicia la pelota al centro.
+
+
 
 
